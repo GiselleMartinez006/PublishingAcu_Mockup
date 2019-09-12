@@ -1,0 +1,122 @@
+ @import url("https://fonts.googleapis.com/css?family=Aladin|Bitter|Courgette|Crimson+Pro|Crimson+Text|Dancing+Script|Delius+Unicase:700|Gayathri|Hepta+Slab|Josefin+Sans|Livvic|Lobster|Marck+Script|Merienda:700|Merriweather|Modak|Niconne|Norican|Playfair+Display|Roboto+Slab|Satisfy|Tillana:500,600|Yellowtail|Yesteryear&display=swap");
+ body {
+     background-image: url("https://raw.githubusercontent.com/GiselleMartinez006/FSW-100-assignments/step9branch/assignments/practicing-terminal/Week4/img/photo-1546387903-6d82d96ccca6.jpg");
+     /*background-repeat: no-repeat;*/
+     font-family: 'Lobster', cursive;
+ }
+
+ .navbar {
+     float: right;
+     overflow: hidden;
+     background-image: linear-gradient( 100deg, #92D050, #00B050, #00B050, #92D050, #A9D18E);
+     margin-top: -50px;
+ }
+
+    .navbar a {
+        float: left;
+        font-size: 16px;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        display: fixed;
+    }
+
+    .dropdown {
+        float: left;
+        overflow: hidden;
+    }
+
+    .dropdown .drop {
+        font-size: 16px;
+        border: none;
+        outline: none;
+        color: white;
+        padding: 14px 16px;
+        background-color: inherit;
+        font-family: inherit;
+        margin: 0;
+    }
+
+    .navbar a:hover, .dropdown:hover .dropbtn {
+        background-color: darkgreen;
+    }
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        z-index: 1;
+    }
+
+    .dropdown-content a {
+        float: none;
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+    }
+
+    .dropdown-content a:hover {
+        background-color: #ddd;
+    }
+
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+
+ #TopHeading {
+     font-size: 75px;
+     color:  #92D050;
+ }
+
+ .welcomequote{
+     color: #92D050;
+     font-size: 35px;
+     text-align: center;
+     float: right;
+     width: 350px;
+     height: auto;
+     margin-right: 350px;
+ }
+.divider {
+    height: 100px;
+    clear: both;
+}
+ .treatments{
+     /*margin-top: 200px;*/
+     font-size: 25px;
+     float: left; 
+     padding-left: 15px;
+     width: 60%;
+ }
+ #treatmentheading {
+     text-align:center;
+     float: center;
+     color: #92D050;
+ }
+
+ .semi-headingtreatments {
+     color: #92D050;
+ }
+.semi-headingdescriptions{
+    font-size: 15px;
+    line-height: 25px;
+}
+
+
+ .aside-semi-headingtreatments{
+     float: right;
+     padding-right: 45px;
+     width: 200px;
+     font-size: 25px;
+     text-align:center;
+     color: #92D050;
+     width: 20%;
+
+ }
+ .aside-semi-headingdescriptions{
+     font-size: 10px;
+ }
