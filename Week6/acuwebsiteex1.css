@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.banner{
+    background: url(C:\Users\Family\dev\PublishingAcu_Mockup\Week6\img\Backgroundblue.jpg);
+    width: 100;
+    background-size:cover;
+}
+.top-bar{
+    background-color: #000;
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+.logo{
+    color: #fff;
+    flex: 1;
+    font-size: 40px;
+    padding: 18px;
+    text-transform: uppercase;
+}
+.menu{
+    flex: 3px;
+}
+
+.menu ul{
+    display: flex;
+    list-style: none;
+    margin-top:38px;
+    flex-flow: row wrap;
+}
+
+.menu ul li{
+    flex: 1;
+    text-align: center;
+}
+
+.menu ul li a{
+    color: #fff;
+    font-size: 28px;
+    text-decoration: none;
+}
+
+/*Banner*/
+
+.banner-text{
+    display: flex;
+    padding: 15% 0;
+    
+}
