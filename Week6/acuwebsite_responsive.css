@@ -68,50 +68,10 @@ nav li:hover .drop1>li {
 
 /*and then you remember you were going to make it fixed...*/
 
-.topdividers{
+.topdividers {
     height: 50px;
     width: 100%;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*HEADER*/
 
@@ -162,35 +122,6 @@ font-family: 'Calligraffitti', cursive;*/
 }
 
 /*welcome header over*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*ARTICLE*/
 
@@ -252,36 +183,13 @@ summary {
     font-size: 1.5em;
 }
 
-.wrapper2{
+.wrapper2 {
     clear: both;
     margin: auto;
     width: 100%;
     display: flex;
     /*justify-content: left;*/
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*ASIDE HERE*/
 
@@ -293,31 +201,9 @@ aside {
     text-align: center;
 }
 
-.table{
+.table {
     padding-left: 15%;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*FOOTER HERE*/
 
