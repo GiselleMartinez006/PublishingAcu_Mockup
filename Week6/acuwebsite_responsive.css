@@ -190,6 +190,10 @@ summary {
     flex-wrap: nowrap;
 }
 
+#shiatsuheading, #tuinaheading, #swedishheading {
+    font-size: 1em;
+    font-family: 'Martel Sans', sans-serif;
+}
 /*ASIDE HERE*/
 
 aside {
