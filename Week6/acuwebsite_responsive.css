@@ -183,12 +183,11 @@ summary {
     font-size: 1.5em;
 }
 
-.wrapper2 {
-    clear: both;
-    margin: auto;
-    width: 100%;
+#wrapper2{
     display: flex;
-    /*justify-content: left;*/
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: nowrap;
 }
 
 /*ASIDE HERE*/
