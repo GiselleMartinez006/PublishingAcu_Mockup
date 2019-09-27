@@ -197,6 +197,9 @@ summary {
 /*ASIDE HERE*/
 
 aside {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
     padding: 5% 0;
     padding-top: 10%;
     background: rgb(6, 226, 171);
@@ -204,24 +207,37 @@ aside {
     text-align: center;
 }
 
-.table {
-    padding-left: 15%;
+#sideimg{
+    max-width: 20vw;
+    box-sizing: contain;
 }
 
+.table {
+    padding-left: 15%;
+    border: solid 1px;
+    border-color: black;
+    border-radius: 95%;
+    border-collapse: collapse;
+}
+
+th{
+    background: teal;
+    border-collapse: collapse;
+}
 /*FOOTER HERE*/
 
 footer {
     margin: auto;
     clear: both;
+    padding-left: 10%;
+    font-family: 'Arima Madurai', cursive;
     background: linear-gradient(180deg, rgba(111, 228, 233, 1) 0%, rgba(33, 215, 215, 1) 11%, rgba(30, 227, 117, 1) 59%, rgba(92, 249, 67, 1) 100%);
 }
 
 footer h1 {
-    color: blue;
+    font-family: 'Arizonia', cursive;
     font-size: 40px;
     margin-bottom: 18px;
-    text-decoration: underline;
-    font-family: Lobster;
 }
 
 .contact-items {
